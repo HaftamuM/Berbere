@@ -19,8 +19,7 @@ To get started with Berbere, follow these steps:
    git clone https://github.com/yourusername/your-repo-name.git
    
 2. **Install Dependencies** 
-
-   - **Navigate to the project directory and install the required dependencies.
+   **Navigate to the project directory and install the required dependencies.
 
     ```bash
       cd your-repo-name
