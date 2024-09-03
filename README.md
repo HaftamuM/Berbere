@@ -11,9 +11,14 @@ This innovative cooking and recipes app is designed to help users discover, crea
 
 ## Getting Started
 
-To get started with [Your App Name], follow these steps:
+To get started with Berbere, follow these steps:
 
 1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
+   
+2. ** Install Dependencies
+
+## Navigate to the project directory and install the required dependencies.
+
