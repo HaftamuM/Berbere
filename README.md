@@ -76,74 +76,7 @@ Before you can run the app, you need to install the required dependencies. Follo
      cd ..
      ```
 
-By following these steps, you ensure that all necessary packages and dependencies are installed, allowing you to proceed with running and developing your app.
+By following these steps, you ensure that all necessary packages and dependencies are installed, allowing you to proceed with running and developing Berbere.
 
-
-## Set Up Firebase
-
-Follow these steps to integrate Firebase with your project:
-
-1. **Create a Firebase Project:**
-
-   - Navigate to the [Firebase Console](https://console.firebase.google.com/).
-   - Click on **"Add project"** and follow the prompts to set up a new Firebase project. You’ll need to name your project and agree to the terms of service.
-
-2. **Add Firebase to Your App:**
-
-   - In the Firebase Console, select your newly created project.
-   - Click on the gear icon next to **"Project Overview"** and select **"Project settings"** from the dropdown menu.
-
-   - **For Android:**
-     1. Under **"Your apps"**, click on the Android icon.
-     2. Register your app with a package name (e.g., `com.example.yourapp`).
-     3. Download the `google-services.json` file when prompted.
-     4. Place the `google-services.json` file in your Android app’s `app/` directory.
-
-   - **For iOS:**
-     1. Under **"Your apps"**, click on the iOS icon.
-     2. Register your app with an iOS bundle ID (e.g., `com.example.yourapp`).
-     3. Download the `GoogleService-Info.plist` file when prompted.
-     4. Place the `GoogleService-Info.plist` file into your Xcode project using Xcode’s file import feature (drag it into the root of the project navigator).
-
-3. **Install Firebase SDKs:**
-
-   - **For Web:**
-     ```bash
-     npm install firebase
-     ```
-
-   - **For Android:**
-     - Add the Firebase SDK to your `build.gradle` files:
-       ```gradle
-       // Project-level build.gradle
-       classpath 'com.google.gms:google-services:4.3.14'
-
-       // App-level build.gradle
-       implementation 'com.google.firebase:firebase-core:21.2.0'
-       ```
-
-     - Apply the Google services plugin in your `app/build.gradle`:
-       ```gradle
-       apply plugin: 'com.google.gms.google-services'
-       ```
-
-   - **For iOS:**
-     - Add Firebase to your `Podfile`:
-       ```ruby
-       pod 'Firebase/Core'
-       ```
-
-     - Run the following command to install the pods:
-       ```bash
-       pod install
-       ```
-
-4. **Configure Firebase Services:**
-
-   - **Authentication:** Set up authentication methods in the Firebase Console under the **"Authentication"** section.
-   - **Firestore Database:** Create a Firestore database for storing and managing recipes and user data under the **"Firestore Database"** section.
-   - **Storage:** Use Firebase Storage to store and retrieve images and videos. Set this up in the **"Storage"** section of the Firebase Console.
-
-By following these steps, you will integrate Firebase services into your app, enabling powerful features like real-time databases, authentication, and cloud storage.
 
     
