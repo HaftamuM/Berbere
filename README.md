@@ -25,4 +25,14 @@ To get started with Berbere, follow these steps:
       cd your-repo-name
       npm install
 
-    -  **For iOS development, use CocoaPods:
+    **For iOS development, use CocoaPods:
+    
+     ```bash
+       pod install
+
+    **For Android development, use Gradle:
+
+    ./gradlew build
+
+3. **Set Up F
+    
