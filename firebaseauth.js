@@ -24,7 +24,6 @@
 			const email= document.getElementById('rEmail').value;
 			const password=document.getElementById(rPassword).value; 
 			const firstName=document.getElementById(rfName).value; 
-			const lastName=document.getElementById(rlName).value; 
 
 			const auth=getAuth(); 
 			const db=getFirstore(); 
@@ -35,7 +34,7 @@
 				const userData={ 
 					email: email, 
 					firstName: firstName, 
-					lastname: lastname, 
+				
 				}
 			})
 
